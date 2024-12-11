@@ -4,7 +4,7 @@ import sys
 import start
 if start.from_test():
     print("Running from Dr Javier's code")
-    from buscando_ando_sandbox import sparse_search  
+    from buscando_ando import sparse_search  
 else:
     print("Running from students' code")
     from buscando_ando_sandbox import sparse_search  
